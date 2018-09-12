@@ -13,7 +13,7 @@ describe('site', function() {
   it('should be annotated', function() {
     expect(factory['@implements']).to.deep.equal([
       'http://i.kerouacjs.org/Site',
-      'http://schemas.modulate.io/js/www/robots/WWWSite'
+      'http://i.kerouacjs.org/www/robots/Site'
     ]);
     expect(factory['@singleton']).to.be.undefined;
   });

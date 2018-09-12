@@ -9,6 +9,6 @@ exports = module.exports = function() {
 
 exports['@implements'] = [
   'http://i.kerouacjs.org/Site',
-  'http://schemas.modulate.io/js/www/robots/WWWSite'
+  'http://i.kerouacjs.org/www/robots/Site'
 ];
 exports['@require'] = [];
