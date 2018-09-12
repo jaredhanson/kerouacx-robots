@@ -1,0 +1,43 @@
+{
+  "name": "@kerouac/robots",
+  "version": "0.0.0",
+  "description": "Kerouac robots exclusion components for Bixby.js.",
+  "keywords": [
+    "kerouac",
+    "robots",
+    "robots.txt",
+    "sitemap",
+    "sitemaps"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/kerouacx-robots.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/kerouacx-robots/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./main",
+  "dependencies": {
+    "kerouac": "^0.1.0"
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
