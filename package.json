@@ -28,9 +28,16 @@
       "url": "http://opensource.org/licenses/MIT"
     }
   ],
-  "main": "./main",
+  "main": "./app",
+  "assembly": {
+    "namespace": "org.kerouacjs/robots",
+    "components": [
+      "site"
+    ]
+  },
   "dependencies": {
-    "kerouac": "^0.1.0"
+    "kerouac": "^0.1.0",
+    "kerouac-robotstxt": "^0.4.2"
   },
   "devDependencies": {
     "make-node": "^0.3.0",
