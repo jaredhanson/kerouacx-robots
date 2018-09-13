@@ -30,7 +30,7 @@
   ],
   "main": "./app",
   "assembly": {
-    "namespace": "org.kerouacjs/robots",
+    "namespace": "org.kerouacjs/www/robots",
     "components": [
       "site"
     ]
