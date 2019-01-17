@@ -12,7 +12,7 @@ describe('@kerouac/robots', function() {
       expect(json.assembly.namespace).to.equal('org.kerouacjs/robots');
       
       expect(json.assembly.components).to.have.length(1);
-      expect(json.assembly.components).to.include('site');
+      expect(json.assembly.components).to.include('protocol');
     });
   });
   

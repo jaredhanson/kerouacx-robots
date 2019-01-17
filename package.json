@@ -32,7 +32,7 @@
   "assembly": {
     "namespace": "org.kerouacjs/robots",
     "components": [
-      "site"
+      "protocol"
     ]
   },
   "dependencies": {
