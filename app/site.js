@@ -7,8 +7,5 @@ exports = module.exports = function() {
   return site;
 };
 
-exports['@implements'] = [
-  'http://i.kerouacjs.org/Site',
-  'http://i.kerouacjs.org/www/robots/Site'
-];
+exports['@implements'] = 'http://i.kerouacjs.org/Site';
 exports['@require'] = [];
